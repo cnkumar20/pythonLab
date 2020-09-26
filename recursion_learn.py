@@ -1,3 +1,5 @@
+num_list = [5,2,7,3,88,33,6,2,8]
+name_list = ["nandy","amar","krishna","xavier","banu"]
 def fib(n):
     if(n==1 or n==2):
         return 1
@@ -15,3 +17,11 @@ def dyn_fib(n):
 
 print(fib(6))
 print(dyn_fib(6))
+num_list.sort(reverse=True)
+print(num_list)
+
+print(sorted(num_list))
+print(sorted(num_list,reverse=True))
+print(sorted(name_list))
+print(sorted(name_list,reverse=True))
+
