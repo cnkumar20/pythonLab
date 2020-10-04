@@ -12,9 +12,15 @@ def find_string_pos(search_string):
     result = [s.find(search_string) for s in test_string]
     print(result)
 
+def get_count(search_string):
+    result = [s.count(search_string) for s in test_string]
+    print(result)
+
 def main():
     find_string("and")
     find_string_pos("*")
     find_string_pos("and")
+    get_count("s")
+
 if __name__ == '__main__':
     main()
