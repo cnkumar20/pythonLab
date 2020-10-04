@@ -67,7 +67,6 @@ while run:
     gluSphere(sphere, 1.0, 32, 16) #Draw sphere
 
     glPopMatrix()
-
     pygame.display.flip() #Update the screen
     pygame.time.wait(10)
 
