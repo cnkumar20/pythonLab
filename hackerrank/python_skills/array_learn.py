@@ -13,6 +13,10 @@ def spiral(m,n):
         #move right
        for x in range(begin_column,end_column):
            print(a[begin_row][x])
+
+
+            
+
        begin_row +=1
        #move down:
        for x in range(begin_row,end_row-1):
